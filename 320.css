@@ -104,7 +104,7 @@ a {
     font-size: 7px;
     margin: 10px 15px;
   }
-  .nav #hide{
+  .nav #hide {
     display: none;
   }
   .nav button {
@@ -137,7 +137,6 @@ a {
     justify-content: center;
     align-items: center;
     display: none;
-
   }
   /* cover */
   .cover {
@@ -232,8 +231,6 @@ a {
   .parent .content .item p {
     font-size: 12px;
     padding: 0 0;
-  }
-
   }
   /* main  */
   .main {
@@ -341,13 +338,12 @@ a {
     width: 100%;
     padding: 0px 39px;
     display: block;
-
   }
   .main .justify .parent-bot .content .item {
     width: 100%;
     margin: 0px 21px 0px 0px;
   }
-  .main .justify .parent-bot .content .item img{
+  .main .justify .parent-bot .content .item img {
     width: 100%;
     height: auto;
   }
@@ -367,133 +363,133 @@ a {
     text-align: center;
     margin: 0px 0px;
   }
-/* support */
-.main .justify .support {
-  width: 100%;
-  height: auto;
-  padding: 83px 20px;
-  background-color: #f1f1f1;
-}
-.main .justify .support h1 {
-  font-family: "SVN-Gilroy Bold";
-  font-size: 17px;
-  color: #000000;
-}
-.main .justify .support .content {
-  width: 100%;
-  display: inline-block;
-  padding: 40px 0;
-}
-.main .justify .support .content .tab-left {
-  width: 100%;
-  /* background-color: #ffffff; */
-  font-family: "SVN-Gilroy Light";
-}
-.main .justify .support .content .child-1 {
-  width: 100%;
-  background-color: #ffffff;
-  padding: 0px 24px;
-  margin: 15px 0;
-  border-radius: 10px;
-  font-size: 13px;
-  font-family: "SVN-Gilroy Light";
-  border: none;
-  /* border: 1px solid var(--mainColorXam); */
-}
-.main .justify .support .content .child-1 .collapsible {
-  width: 100%;
-  cursor: pointer;
-  border: none;
-  text-align: left;
-  padding: 20px 0 20px 0;
-  background-color: #ffffff;
-  font-family: "SVN-Gilroy Bold";
-  color: var(--mainColor1);
-  outline: none;
-  display: flex;
-}
-.main .justify .support .content .child-1 .collapsible p{
-  margin: 10px;
-}
-.main .justify .support .content .child-1 .collapsible .circle {
-  margin: 0px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  max-width: 35px;
-  width: 35px;
-  height: 35px;
-  border: 1px solid #b9b9b9;
-  color: var(--mainColorXam);
-  background-color: #ffffff;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-}
-.main .justify .support .content .child-1 .collapsible:hover {
-  width: 100%;
-  cursor: pointer;
-  border: none;
-  text-align: left;
-  padding: 20px 0 20px 0;
-  background-color: #ffffff;
-  font-family: "SVN-Gilroy Bold";
-  color: var(--mainColor2);
-}
-.main .justify .support .content .child-1 .hidden {
-  overflow: hidden;
-  display: none;
-  padding: 10px 0;
-}
+  /* support */
+  .main .justify .support {
+    width: 100%;
+    height: auto;
+    padding: 83px 20px;
+    background-color: #f1f1f1;
+  }
+  .main .justify .support h1 {
+    font-family: "SVN-Gilroy Bold";
+    font-size: 17px;
+    color: #000000;
+  }
+  .main .justify .support .content {
+    width: 100%;
+    display: inline-block;
+    padding: 40px 0;
+  }
+  .main .justify .support .content .tab-left {
+    width: 100%;
+    /* background-color: #ffffff; */
+    font-family: "SVN-Gilroy Light";
+  }
+  .main .justify .support .content .child-1 {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px 24px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: "SVN-Gilroy Light";
+    border: none;
+    /* border: 1px solid var(--mainColorXam); */
+  }
+  .main .justify .support .content .child-1 .collapsible {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    background-color: #ffffff;
+    font-family: "SVN-Gilroy Bold";
+    color: var(--mainColor1);
+    outline: none;
+    display: flex;
+  }
+  .main .justify .support .content .child-1 .collapsible p {
+    margin: 10px;
+  }
+  .main .justify .support .content .child-1 .collapsible .circle {
+    margin: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 35px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #b9b9b9;
+    color: var(--mainColorXam);
+    background-color: #ffffff;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .main .justify .support .content .child-1 .collapsible:hover {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    background-color: #ffffff;
+    font-family: "SVN-Gilroy Bold";
+    color: var(--mainColor2);
+  }
+  .main .justify .support .content .child-1 .hidden {
+    overflow: hidden;
+    display: none;
+    padding: 10px 0;
+  }
 
-.main .justify .support .content .tab-right {
-  /* width: 24.9999999%; */
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 1px solid var(--mainColorXam);
-  display: block;
-  /* display: none; */
-  margin: 0 auto;
-}
-.main .justify .support .content .tab-right .child-2{
-  width: 100%;
-}
+  .main .justify .support .content .tab-right {
+    /* width: 24.9999999%; */
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid var(--mainColorXam);
+    display: block;
+    /* display: none; */
+    margin: 0 auto;
+  }
+  .main .justify .support .content .tab-right .child-2 {
+    width: 100%;
+  }
 
-.main .justify .support .content .tab-right button {
-  width: 100%;
-  background-color: var(--mainColor2);
-  padding: 20px 38px ;
-  border-radius: 7px;
-  border: none;
-  cursor: pointer;
-  font-size: 13px;
-  font-family: "SVN-Gilroy Bold";
-  color: #ffffff;
-  outline: none;
-}
-.main .justify .support .content .tab-right hr {
-  width: 100%;
-  height: 0;
-  background-color: var(--mainColorXam);
-}
-.main .justify .support .content .tab-right .txt {
-  width: 100%;
-  margin: 22px 0px;
-}
-.main .justify .support .content .tab-right .txt p {
-  color: var(--mainColorXam);
-  font-size: 13px;
-  font-family: "SVN-Gilroy Light";
-}
-.main .justify .support .content .tab-right .txt h6 {
-  color: #000000;
-  font-size: 13px;
-  font-family: "SVN-Gilroy Bold";
-}
+  .main .justify .support .content .tab-right button {
+    width: 100%;
+    background-color: var(--mainColor2);
+    padding: 20px 38px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: "SVN-Gilroy Bold";
+    color: #ffffff;
+    outline: none;
+  }
+  .main .justify .support .content .tab-right hr {
+    width: 100%;
+    height: 0;
+    background-color: var(--mainColorXam);
+  }
+  .main .justify .support .content .tab-right .txt {
+    width: 100%;
+    margin: 22px 0px;
+  }
+  .main .justify .support .content .tab-right .txt p {
+    color: var(--mainColorXam);
+    font-size: 13px;
+    font-family: "SVN-Gilroy Light";
+  }
+  .main .justify .support .content .tab-right .txt h6 {
+    color: #000000;
+    font-size: 13px;
+    font-family: "SVN-Gilroy Bold";
+  }
 
   /* ads  */
   .ads {
@@ -506,7 +502,7 @@ a {
   }
   .ads .text {
     width: 100%;
-    padding: 0 18px 0 0 ;
+    padding: 0 18px 0 0;
   }
   .ads .text h1 {
     font-family: "SVN-Gilroy Bold";

@@ -30,8 +30,8 @@ a {
 }
 @media only screen and (max-width: 1366px) {
   .bar {
-    /* background-color: #f1f1f1; */
-    background-color: saddlebrown;
+    background-color: #f1f1f1;
+    /* background-color: saddlebrown; */
     width: 100%;
     height: auto;
     /* width: 100%; */
