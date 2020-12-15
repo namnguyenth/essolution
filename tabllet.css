@@ -199,9 +199,14 @@ a {
     padding: 80px 0;
     display: flex;
   }
+  .parent .content .img {
+    width: 100%;
+    /* background-color #303030; */
+    display: flex;
+    justify-content: center;
+  }
   .parent .content img {
-    padding: 0 85px;
-    /* background-color: royalblue; */
+    justify-content: center;
   }
   .parent .content .item {
     width: 25%;
