@@ -89,6 +89,10 @@ a {
   .nav .logo {
     margin: 0 10px 0 0;
   }
+  .nav span {
+    display: flex;
+    justify-content: center;
+  }
   .nav .logo a {
     display: flex;
   }

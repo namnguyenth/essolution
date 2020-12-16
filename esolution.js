@@ -33,3 +33,16 @@ for (i = 0; i < cols.length; i++) {
     }
   });
 }
+
+//script menu 
+function myClick() {
+  var x = document.getElementById("click");
+  if (x.style.display === "block") {
+  x.style.display = "none";
+  } else {
+  x.style.display = "block";
+  }
+}
+
+
+
