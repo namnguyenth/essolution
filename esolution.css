@@ -346,6 +346,10 @@ a {
   text-align: center;
   margin: 0px 57px;
 }
+.main .justify .parent-bot .content2 {
+  display: none;
+}
+
 /* support */
 .main .justify .support {
   width: 100%;

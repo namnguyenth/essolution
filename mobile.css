@@ -50,6 +50,14 @@ a {
     display: flex;
   }
   #hide {
+    /* width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    display: block; */
     display: none;
   }
   .nav .logo h4 {
@@ -186,7 +194,7 @@ a {
     font-family: "SVN-Gilroy Light";
     font-size: 11px;
     color: var(--mainColorXam);
-    margin: 0px 0px;
+    margin: 20px 280px;
   }
   /* main  */
   .main {
@@ -297,6 +305,7 @@ a {
     padding: 80px 0;
     display: flex;
     flex-direction: column;
+    display: none;
   }
   .main .justify .parent-bot .content .item {
     width: 100%;
@@ -322,6 +331,33 @@ a {
     font-size: 13px;
     color: var(--mainColorXam);
     /* text-align: center; */
+    text-align: center;
+    margin: 0px 57px;
+  }
+  /* content2  */
+  .main .justify .parent-bot .content2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .justify .parent-bot .content2 .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .justify .parent-bot .image {
+    align-self: center;
+  }
+  .main .justify .parent-bot .content2 .block h6 {
+    font-family: "SVN-Gilroy Bold";
+    font-size: 13px;
+    color: var(--mainColor2);
+    text-align: center;
+    margin: 30px 0;
+  }
+  .main .justify .parent-bot .content2 .block p {
+    font-family: "SVN-Gilroy Light";
+    font-size: 13px;
+    color: var(--mainColorXam);
     text-align: center;
     margin: 0px 57px;
   }
@@ -501,7 +537,6 @@ a {
     height: auto;
     padding: 16px 21px;
     background-color: var(--mainColor1);
-
   }
   footer h4 {
     font-family: "SVN-Gilroy Bold";

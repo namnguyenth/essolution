@@ -84,6 +84,7 @@ a {
     border: none;
     padding: 33px 160px;
     display: flex;
+    justify-content: space-between;
   }
   .nav .logo {
     margin: 0 10px 0 0;
@@ -94,13 +95,15 @@ a {
   .nav .logo h4 {
     font-family: "SVN-Gilroy Bold";
     font-size: 21px;
-    
+  }
+  .nav a{
+    margin: 0px 0px;
   }
   .nav p {
     font-family: "SVN-Gilroy Bold";
     color: #000000;
     font-size: 12px;
-    margin: 10px 28px;
+    margin: 10px 0px;
   }
   .nav button {
     font-family: "SVN-Gilroy Bold";
@@ -252,7 +255,7 @@ a {
     color: var(--mainColor1);
     font-family: "SVN-Gilroy Light";
     font-size: 13px;
-    padding: 0px 378px;
+    padding: 0px 200px;
   }
   /* content  */
   .main .justify .content {
@@ -287,7 +290,7 @@ a {
     color: var(--mainColor2);
   }
   .main .justify .content .txt .right {
-    padding: 8px 180px 0 23px;
+    padding: 8px 100px 0 23px;
   }
   .main .justify .content .txt .right b {
     font-family: "SVN-Gilroy Bold";
@@ -313,7 +316,7 @@ a {
 
   .main .justify .parent-bot .text-bot {
     width: 100%;
-    padding: 80px 317px;
+    padding: 80px 200px;
   }
   .main .justify .parent-bot .text-bot h1 {
     font-family: "SVN-Gilroy Bold";
