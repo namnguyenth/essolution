@@ -303,6 +303,7 @@ a {
   .main .justify .parent-bot .content .item {
     width: 100%;
     margin: 0;
+    display: none;
   }
   .main .justify .parent-bot .content .item img {
     /* width: 1440px !important; */
