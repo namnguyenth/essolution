@@ -289,7 +289,9 @@ a {
     display: inline-table;
     margin: 0px 34px 0px 0px;
   }
-
+  .main .justify .parent-bot {
+    background-color: #ffffff;
+  }
   .main .justify .parent-bot .text-bot {
     width: 100%;
     height: auto;
